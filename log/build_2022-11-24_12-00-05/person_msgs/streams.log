@@ -1,0 +1,17 @@
+[0.510s] Invoking command in '/home/tanimoto/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/tanimoto/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake --build /home/tanimoto/ros2_ws/build/person_msgs -- -j8 -l8
+[0.689s] Invoked command in '/home/tanimoto/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tanimoto/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake --build /home/tanimoto/ros2_ws/build/person_msgs -- -j8 -l8
+[0.944s] Invoking command in '/home/tanimoto/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/tanimoto/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake --build /home/tanimoto/ros2_ws/build/person_msgs --target install -- -j8 -l8
+[1.180s] [36mInstall the project...[0m
+[1.217s] -- Install configuration: ""
+[1.218s] -- Up-to-date: /home/tanimoto/ros2_ws/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs
+[1.218s] -- Up-to-date: /home/tanimoto/ros2_ws/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs
+[1.218s] -- Up-to-date: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh
+[1.219s] -- Up-to-date: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/environment/path.sh
+[1.219s] -- Up-to-date: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/local_setup.bash
+[1.220s] -- Up-to-date: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/local_setup.sh
+[1.220s] -- Up-to-date: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/local_setup.zsh
+[1.220s] -- Up-to-date: /home/tanimoto/ros2_ws/install/person_msgs/share/ament_index/resource_index/packages/person_msgs
+[1.220s] -- Up-to-date: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake
+[1.220s] -- Up-to-date: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake
+[1.220s] -- Up-to-date: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/package.xml
+[1.230s] Invoked command in '/home/tanimoto/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=/home/tanimoto/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake --build /home/tanimoto/ros2_ws/build/person_msgs --target install -- -j8 -l8

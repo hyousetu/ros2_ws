@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000439] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000579] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.000668] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.079004] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.103313] (-) TimerEvent: {}
+[0.208682] (-) TimerEvent: {}
+[0.315184] (-) TimerEvent: {}
+[0.437980] (-) TimerEvent: {}
+[0.545311] (-) TimerEvent: {}
+[0.552410] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.553705] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/tanimoto/ros2_ws/src/person_msgs', '-DCMAKE_INSTALL_PREFIX=/home/tanimoto/ros2_ws/install/person_msgs'], 'cwd': '/home/tanimoto/ros2_ws/build/person_msgs', 'env': OrderedDict([('UIM_CANDWIN_PROG', 'uim-candwin-gtk'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tanimoto'), ('LC_TIME', 'ja_JP.UTF-8'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('HOME', '/home/tanimoto'), ('OLDPWD', '/home/tanimoto/ros2_ws/src'), ('XIM', 'uim'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'ja_JP.UTF-8'), ('WSL_DISTRO_NAME', 'Ubuntu-18.04'), ('COLCON_PREFIX_PATH', '/home/tanimoto/ros2_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'tanimoto'), ('GTK_IM_MODULE', 'uim'), ('NAME', 'DESKTOP-LI2MGAG'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('LC_COLLATE', 'ja_JP.UTF-8'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2020.827.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/takato/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('DISPLAY', 'localhost:0.0'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=uim'), ('AMENT_PREFIX_PATH', '/home/tanimoto/ros2_ws/install/mypkg:/opt/ros/dashing'), ('LC_MESSAGES', 'ja_JP.UTF-8'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'uim'), ('PWD', '/home/tanimoto/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/tanimoto/ros2_ws/install/mypkg:/opt/ros/dashing')]), 'shell': False}
+[0.650902] (-) TimerEvent: {}
+[0.757078] (-) TimerEvent: {}
+[0.862153] (-) TimerEvent: {}
+[0.911455] (person_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.968046] (-) TimerEvent: {}
+[1.074445] (-) TimerEvent: {}
+[1.181395] (-) TimerEvent: {}
+[1.189617] (person_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.213527] (person_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.270419] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/tanimoto/ros2_ws/build/mypkg/build', 'install', '--prefix', '/home/tanimoto/ros2_ws/install/mypkg', '--record', '/home/tanimoto/ros2_ws/build/mypkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/tanimoto/ros2_ws/src/mypkg', 'env': {'UIM_CANDWIN_PROG': 'uim-candwin-gtk', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tanimoto', 'LC_TIME': 'ja_JP.UTF-8', 'LD_LIBRARY_PATH': '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '1', 'HOME': '/home/tanimoto', 'OLDPWD': '/home/tanimoto/ros2_ws/src', 'XIM': 'uim', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'ja_JP.UTF-8', 'WSL_DISTRO_NAME': 'Ubuntu-18.04', 'COLCON_PREFIX_PATH': '/home/tanimoto/ros2_ws/install', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'tanimoto', 'GTK_IM_MODULE': 'uim', 'NAME': 'DESKTOP-LI2MGAG', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '1', 'LC_COLLATE': 'ja_JP.UTF-8', 'PATH': '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2020.827.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/takato/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'DISPLAY': 'localhost:0.0', 'LANG': 'ja_JP.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XMODIFIERS': '@im=uim', 'AMENT_PREFIX_PATH': '/home/tanimoto/ros2_ws/install/mypkg:/opt/ros/dashing', 'LC_MESSAGES': 'ja_JP.UTF-8', 'LC_NAME': 'ja_JP.UTF-8', 'SHELL': '/bin/bash', 'NO_AT_BRIDGE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'uim', 'PWD': '/home/tanimoto/ros2_ws/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages:/home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.296862] (-) TimerEvent: {}
+[1.406399] (-) TimerEvent: {}
+[1.513380] (-) TimerEvent: {}
+[1.621359] (-) TimerEvent: {}
+[1.728224] (-) TimerEvent: {}
+[1.733929] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.734694] (mypkg) StdoutLine: {'line': b'creating ../../build/mypkg/mypkg.egg-info\n'}
+[1.736770] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[1.739240] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[1.740500] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[1.742043] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[1.743379] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[1.745212] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.804248] (person_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.805538] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.805810] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.807506] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.808253] (mypkg) StdoutLine: {'line': b'running build\n'}
+[1.808362] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[1.808863] (mypkg) StdoutLine: {'line': b'creating /home/tanimoto/ros2_ws/build/mypkg/build\n'}
+[1.809347] (mypkg) StdoutLine: {'line': b'creating /home/tanimoto/ros2_ws/build/mypkg/build/lib\n'}
+[1.809676] (mypkg) StdoutLine: {'line': b'creating /home/tanimoto/ros2_ws/build/mypkg/build/lib/mypkg\n'}
+[1.810221] (mypkg) StdoutLine: {'line': b'copying mypkg/listener.py -> /home/tanimoto/ros2_ws/build/mypkg/build/lib/mypkg\n'}
+[1.812662] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/tanimoto/ros2_ws/build/mypkg/build/lib/mypkg\n'}
+[1.815258] (mypkg) StdoutLine: {'line': b'copying mypkg/__init__.py -> /home/tanimoto/ros2_ws/build/mypkg/build/lib/mypkg\n'}
+[1.816334] (mypkg) StdoutLine: {'line': b'running install\n'}
+[1.816954] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.819158] (mypkg) StdoutLine: {'line': b'creating /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg\n'}
+[1.819608] (mypkg) StdoutLine: {'line': b'copying /home/tanimoto/ros2_ws/build/mypkg/build/lib/mypkg/listener.py -> /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg\n'}
+[1.822740] (mypkg) StdoutLine: {'line': b'copying /home/tanimoto/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg\n'}
+[1.825657] (mypkg) StdoutLine: {'line': b'copying /home/tanimoto/ros2_ws/build/mypkg/build/lib/mypkg/__init__.py -> /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg\n'}
+[1.827137] (mypkg) StdoutLine: {'line': b'byte-compiling /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/listener.py to listener.cpython-36.pyc\n'}
+[1.832943] (mypkg) StdoutLine: {'line': b'byte-compiling /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/talker.py to talker.cpython-36.pyc\n'}
+[1.833275] (-) TimerEvent: {}
+[1.837969] (mypkg) StdoutLine: {'line': b'byte-compiling /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/__init__.py to __init__.cpython-36.pyc\n'}
+[1.839806] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[1.840910] (mypkg) StdoutLine: {'line': b'creating /home/tanimoto/ros2_ws/install/mypkg/share/ament_index\n'}
+[1.841261] (mypkg) StdoutLine: {'line': b'creating /home/tanimoto/ros2_ws/install/mypkg/share/ament_index/resource_index\n'}
+[1.841664] (mypkg) StdoutLine: {'line': b'creating /home/tanimoto/ros2_ws/install/mypkg/share/ament_index/resource_index/packages\n'}
+[1.842027] (mypkg) StdoutLine: {'line': b'copying resource/mypkg -> /home/tanimoto/ros2_ws/install/mypkg/share/ament_index/resource_index/packages\n'}
+[1.842801] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/tanimoto/ros2_ws/install/mypkg/share/mypkg\n'}
+[1.844471] (mypkg) StdoutLine: {'line': b'copying launch/talk_listen.launch.py -> /home/tanimoto/ros2_ws/install/mypkg/share/mypkg\n'}
+[1.845661] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.850975] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info\n'}
+[1.870912] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.905877] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/tanimoto/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.907570] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/tanimoto/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.910224] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/tanimoto/ros2_ws/build/mypkg/install.log'\n"}
+[1.941484] (-) TimerEvent: {}
+[1.947152] (mypkg) CommandEnded: {'returncode': 0}
+[1.992360] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[2.049130] (-) TimerEvent: {}
+[2.156686] (-) TimerEvent: {}
+[2.262735] (-) TimerEvent: {}
+[2.347669] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.366322] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.367688] (-) TimerEvent: {}
+[2.474394] (-) TimerEvent: {}
+[2.580763] (-) TimerEvent: {}
+[2.686673] (-) TimerEvent: {}
+[2.792852] (-) TimerEvent: {}
+[2.900037] (-) TimerEvent: {}
+[3.006056] (-) TimerEvent: {}
+[3.112120] (-) TimerEvent: {}
+[3.219470] (-) TimerEvent: {}
+[3.325176] (-) TimerEvent: {}
+[3.431077] (-) TimerEvent: {}
+[3.537052] (-) TimerEvent: {}
+[3.643027] (-) TimerEvent: {}
+[3.749237] (-) TimerEvent: {}
+[3.854673] (-) TimerEvent: {}
+[3.959119] (-) TimerEvent: {}
+[3.986721] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.013585] (person_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.066656] (-) TimerEvent: {}
+[4.173307] (-) TimerEvent: {}
+[4.279214] (-) TimerEvent: {}
+[4.384683] (-) TimerEvent: {}
+[4.491875] (-) TimerEvent: {}
+[4.598514] (-) TimerEvent: {}
+[4.693432] (person_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.698841] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.700555] (-) TimerEvent: {}
+[4.811137] (-) TimerEvent: {}
+[4.918972] (-) TimerEvent: {}
+[5.026575] (-) TimerEvent: {}
+[5.132326] (-) TimerEvent: {}
+[5.239785] (-) TimerEvent: {}
+[5.326285] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.347229] (-) TimerEvent: {}
+[5.361419] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.453238] (-) TimerEvent: {}
+[5.559279] (-) TimerEvent: {}
+[5.665219] (-) TimerEvent: {}
+[5.771164] (-) TimerEvent: {}
+[5.878512] (-) TimerEvent: {}
+[5.986443] (-) TimerEvent: {}
+[6.092634] (-) TimerEvent: {}
+[6.199803] (-) TimerEvent: {}
+[6.305082] (-) TimerEvent: {}
+[6.411349] (-) TimerEvent: {}
+[6.517302] (-) TimerEvent: {}
+[6.623623] (-) TimerEvent: {}
+[6.729094] (-) TimerEvent: {}
+[6.834855] (-) TimerEvent: {}
+[6.942068] (-) TimerEvent: {}
+[7.048400] (-) TimerEvent: {}
+[7.154513] (-) TimerEvent: {}
+[7.261595] (-) TimerEvent: {}
+[7.368056] (-) TimerEvent: {}
+[7.473634] (-) TimerEvent: {}
+[7.580989] (-) TimerEvent: {}
+[7.687245] (-) TimerEvent: {}
+[7.793272] (-) TimerEvent: {}
+[7.899634] (-) TimerEvent: {}
+[8.004849] (-) TimerEvent: {}
+[8.109885] (-) TimerEvent: {}
+[8.216778] (-) TimerEvent: {}
+[8.321656] (-) TimerEvent: {}
+[8.428053] (-) TimerEvent: {}
+[8.535797] (-) TimerEvent: {}
+[8.643482] (-) TimerEvent: {}
+[8.749232] (-) TimerEvent: {}
+[8.766891] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.813260] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[8.854467] (-) TimerEvent: {}
+[8.923707] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[8.924618] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.959934] (-) TimerEvent: {}
+[9.068043] (-) TimerEvent: {}
+[9.175595] (-) TimerEvent: {}
+[9.282600] (-) TimerEvent: {}
+[9.389352] (-) TimerEvent: {}
+[9.494507] (-) TimerEvent: {}
+[9.596715] (person_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[9.597358] (-) TimerEvent: {}
+[9.706308] (-) TimerEvent: {}
+[9.812256] (-) TimerEvent: {}
+[9.917791] (-) TimerEvent: {}
+[10.024002] (-) TimerEvent: {}
+[10.047733] (person_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.066502] (person_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.129162] (-) TimerEvent: {}
+[10.131968] (person_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.218037] (person_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[10.236907] (-) TimerEvent: {}
+[10.295192] (person_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/tanimoto/ros2_ws/build/person_msgs\n'}
+[10.309480] (person_msgs) CommandEnded: {'returncode': 0}
+[10.312227] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'build'}
+[10.316226] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tanimoto/ros2_ws/build/person_msgs', '--', '-j8', '-l8'], 'cwd': '/home/tanimoto/ros2_ws/build/person_msgs', 'env': OrderedDict([('UIM_CANDWIN_PROG', 'uim-candwin-gtk'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tanimoto'), ('LC_TIME', 'ja_JP.UTF-8'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('HOME', '/home/tanimoto'), ('OLDPWD', '/home/tanimoto/ros2_ws/src'), ('XIM', 'uim'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'ja_JP.UTF-8'), ('WSL_DISTRO_NAME', 'Ubuntu-18.04'), ('COLCON_PREFIX_PATH', '/home/tanimoto/ros2_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'tanimoto'), ('GTK_IM_MODULE', 'uim'), ('NAME', 'DESKTOP-LI2MGAG'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('LC_COLLATE', 'ja_JP.UTF-8'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2020.827.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/takato/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('DISPLAY', 'localhost:0.0'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=uim'), ('AMENT_PREFIX_PATH', '/home/tanimoto/ros2_ws/install/mypkg:/opt/ros/dashing'), ('LC_MESSAGES', 'ja_JP.UTF-8'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'uim'), ('PWD', '/home/tanimoto/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/tanimoto/ros2_ws/install/mypkg:/opt/ros/dashing')]), 'shell': False}
+[10.343086] (-) TimerEvent: {}
+[10.450768] (-) TimerEvent: {}
+[10.559359] (-) TimerEvent: {}
+[10.564420] (person_msgs) CommandEnded: {'returncode': 0}
+[10.665314] (-) TimerEvent: {}
+[10.764335] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'install'}
+[10.765227] (-) TimerEvent: {}
+[10.827365] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tanimoto/ros2_ws/build/person_msgs', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/tanimoto/ros2_ws/build/person_msgs', 'env': OrderedDict([('UIM_CANDWIN_PROG', 'uim-candwin-gtk'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tanimoto'), ('LC_TIME', 'ja_JP.UTF-8'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('HOME', '/home/tanimoto'), ('OLDPWD', '/home/tanimoto/ros2_ws/src'), ('XIM', 'uim'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'ja_JP.UTF-8'), ('WSL_DISTRO_NAME', 'Ubuntu-18.04'), ('COLCON_PREFIX_PATH', '/home/tanimoto/ros2_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'tanimoto'), ('GTK_IM_MODULE', 'uim'), ('NAME', 'DESKTOP-LI2MGAG'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('LC_COLLATE', 'ja_JP.UTF-8'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2020.827.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/takato/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('DISPLAY', 'localhost:0.0'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=uim'), ('AMENT_PREFIX_PATH', '/home/tanimoto/ros2_ws/install/mypkg:/opt/ros/dashing'), ('LC_MESSAGES', 'ja_JP.UTF-8'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'uim'), ('PWD', '/home/tanimoto/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/tanimoto/ros2_ws/install/mypkg:/opt/ros/dashing')]), 'shell': False}
+[10.877796] (-) TimerEvent: {}
+[10.983663] (-) TimerEvent: {}
+[11.078886] (person_msgs) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[11.088854] (-) TimerEvent: {}
+[11.134906] (person_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.139219] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/tanimoto/ros2_ws/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs\n'}
+[11.159404] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/tanimoto/ros2_ws/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs\n'}
+[11.164307] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh\n'}
+[11.167202] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/environment/path.sh\n'}
+[11.169711] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/local_setup.bash\n'}
+[11.172586] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/local_setup.sh\n'}
+[11.175925] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/local_setup.zsh\n'}
+[11.179023] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/tanimoto/ros2_ws/install/person_msgs/share/ament_index/resource_index/packages/person_msgs\n'}
+[11.180732] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake\n'}
+[11.184302] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake\n'}
+[11.186741] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/tanimoto/ros2_ws/install/person_msgs/share/person_msgs/package.xml\n'}
+[11.194502] (-) TimerEvent: {}
+[11.199042] (person_msgs) CommandEnded: {'returncode': 0}
+[11.302816] (-) TimerEvent: {}
+[11.424495] (-) TimerEvent: {}
+[11.531036] (-) TimerEvent: {}
+[11.534753] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 0}
+[11.545827] (-) EventReactorShutdown: {}

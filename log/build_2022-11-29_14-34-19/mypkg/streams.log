@@ -1,0 +1,28 @@
+[3.851s] Invoking command in '/home/tanimoto/ros2_ws/src/mypkg': PYTHONPATH=/home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/tanimoto/ros2_ws/build/mypkg/build install --prefix /home/tanimoto/ros2_ws/install/mypkg --record /home/tanimoto/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[4.258s] running egg_info
+[4.259s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[4.261s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[4.262s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[4.263s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[4.264s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[4.310s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[4.326s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[4.326s] running build
+[4.327s] running build_py
+[4.328s] copying mypkg/listener.py -> /home/tanimoto/ros2_ws/build/mypkg/build/lib/mypkg
+[4.345s] copying mypkg/talker.py -> /home/tanimoto/ros2_ws/build/mypkg/build/lib/mypkg
+[4.350s] running install
+[4.351s] running install_lib
+[4.353s] copying /home/tanimoto/ros2_ws/build/mypkg/build/lib/mypkg/listener.py -> /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg
+[4.356s] copying /home/tanimoto/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg
+[4.360s] byte-compiling /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/listener.py to listener.cpython-36.pyc
+[4.368s] byte-compiling /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg/talker.py to talker.cpython-36.pyc
+[4.372s] running install_data
+[4.373s] running install_egg_info
+[4.377s] removing '/home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info' (and everything under it)
+[4.381s] Copying ../../build/mypkg/mypkg.egg-info to /home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[4.432s] running install_scripts
+[4.466s] Installing listener script to /home/tanimoto/ros2_ws/install/mypkg/lib/mypkg
+[4.467s] Installing talker script to /home/tanimoto/ros2_ws/install/mypkg/lib/mypkg
+[4.469s] writing list of installed files to '/home/tanimoto/ros2_ws/build/mypkg/install.log'
+[4.509s] Invoked command in '/home/tanimoto/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/tanimoto/ros2_ws/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/tanimoto/ros2_ws/build/mypkg/build install --prefix /home/tanimoto/ros2_ws/install/mypkg --record /home/tanimoto/ros2_ws/build/mypkg/install.log --single-version-externally-managed
